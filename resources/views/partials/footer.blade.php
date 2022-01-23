@@ -1,1 +1,3 @@
-<footer>Sono un footer</footer>
+<footer>
+    &copyEleonora - Prova Db/Laravel
+</footer>

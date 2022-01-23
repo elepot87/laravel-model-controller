@@ -20,3 +20,11 @@
 .container .my-card .card-title {
   color: #96c471;
 }
+
+footer {
+  background-color: #000;
+  height: 50px;
+  color: #96c471;
+  padding: 16px;
+  margin-top: 50px;
+}
