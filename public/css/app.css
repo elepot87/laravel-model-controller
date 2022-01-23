@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.active-item {
+  color: #96c471 !important;
+  text-decoration: underline;
+}
+
 .title-page {
   font-family: "Dosis", sans-serif;
   color: #96c471;
