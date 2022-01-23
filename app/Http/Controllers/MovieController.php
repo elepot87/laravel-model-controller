@@ -4,14 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Movie;
+
 class MovieController extends Controller
 {
     public function index() {
-        // Dati
-        $films = [
-           'Jurassic Park', 'Orgoglio e Pregiudizio', 'IL padrino'
-        ];
+        // Ottenere tutti i dati
+        $movies = Movie::all();
+        dump($movies);
         // View
-        return view ('movies', compact('films'));
+        return view ('movies', compact('movies'));
     }
 }

@@ -3,5 +3,7 @@
 @section('head-title', ' Movies' )
 
 @section('main-content')
-    <h1 class="title-page">Home page </h1>
+    <div class="container">
+        <h1 class="title-page">Home page </h1>
+    </div>
 @endsection

@@ -2,3 +2,12 @@
     font-family: $primary-font;
     color: $primary-color;
 }
+
+.container {
+    .my-card {
+        margin-top: 20px;
+        .card-title {
+            color: $primary-color;
+        }
+    }
+}
